@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "question",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "buttonList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "components.button"
+    }
+  }
+}

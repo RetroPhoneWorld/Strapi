@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_equilibrium_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

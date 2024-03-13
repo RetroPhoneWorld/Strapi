@@ -1,0 +1,46 @@
+{
+  "kind": "singleType",
+  "collectionName": "equilibrium_pages",
+  "info": {
+    "singularName": "equilibrium-page",
+    "pluralName": "equilibrium-pages",
+    "displayName": "EquilibriumPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "equilibrium.about",
+        "equilibrium.cta",
+        "equilibrium.hero",
+        "equilibrium.mission",
+        "equilibrium.services",
+        "equilibrium.value"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

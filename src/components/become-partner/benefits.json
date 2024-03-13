@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_become_partner_benefits",
+  "info": {
+    "displayName": "Benefits",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "benefits": {
+      "displayName": "BenefitsItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "become-partner.benefits-item"
+    }
+  }
+}

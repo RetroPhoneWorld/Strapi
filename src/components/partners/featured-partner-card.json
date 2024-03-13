@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_partners_featured_partner_cards",
+  "info": {
+    "displayName": "FeaturedPartnerCard",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ShowPartners": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

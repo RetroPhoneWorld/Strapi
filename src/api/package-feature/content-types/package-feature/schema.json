@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "package_features",
+  "info": {
+    "singularName": "package-feature",
+    "pluralName": "package-features",
+    "displayName": "PackageFeature",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

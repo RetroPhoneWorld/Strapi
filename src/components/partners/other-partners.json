@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_partners_other_partners",
+  "info": {
+    "displayName": "OtherPartners",
+    "icon": "plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "ShowPartners": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

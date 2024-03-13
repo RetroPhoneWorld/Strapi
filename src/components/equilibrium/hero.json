@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_equilibrium_heroes",
+  "info": {
+    "displayName": "Hero",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "banner": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

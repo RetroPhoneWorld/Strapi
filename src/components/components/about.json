@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_components_abouts",
+  "info": {
+    "displayName": "About",
+    "icon": "medium",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "lead": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card": {
+      "displayName": "PopUpCard",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.pop-up-card"
+    }
+  }
+}

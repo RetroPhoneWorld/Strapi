@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_components_header_lists",
+  "info": {
+    "displayName": "HeaderList",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Header": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": true,
+      "component": "components.header"
+    }
+  }
+}

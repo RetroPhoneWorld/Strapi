@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_components_partners",
+  "info": {
+    "displayName": "Partner",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

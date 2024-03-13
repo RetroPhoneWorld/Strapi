@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_contact_us_client_infos",
+  "info": {
+    "displayName": "ClientInfo",
+    "icon": "information"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkName": {
+      "type": "string"
+    },
+    "linkType": {
+      "type": "enumeration",
+      "enum": [
+        "tel",
+        "email",
+        "map",
+        "default"
+      ],
+      "default": "default"
+    }
+  }
+}

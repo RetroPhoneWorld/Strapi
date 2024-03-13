@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_events_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "bold",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "lead": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "showEvents": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

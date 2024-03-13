@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_components_black_sections",
+  "info": {
+    "displayName": "BlackSection",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "Title1": {
+      "type": "string"
+    },
+    "Title2": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

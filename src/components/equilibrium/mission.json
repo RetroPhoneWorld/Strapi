@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_equilibrium_missions",
+  "info": {
+    "displayName": "Mission",
+    "icon": "paperPlane"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "titleRedirect": {
+      "type": "string"
+    },
+    "buttonNameRedirect": {
+      "type": "string"
+    },
+    "buttonLinkRedirect": {
+      "type": "string"
+    }
+  }
+}

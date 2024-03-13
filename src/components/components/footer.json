@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_components_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "FirstButton": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    },
+    "SecondButton": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.button"
+    }
+  }
+}

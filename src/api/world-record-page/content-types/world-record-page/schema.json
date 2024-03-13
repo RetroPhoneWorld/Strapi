@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "world_record_pages",
+  "info": {
+    "singularName": "world-record-page",
+    "pluralName": "world-record-pages",
+    "displayName": "WorldRecordPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "word-record.description",
+        "word-record.header",
+        "word-record.mission",
+        "word-record.vision",
+        "components.cta"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

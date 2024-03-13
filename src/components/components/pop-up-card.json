@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_components_pop_up_cards",
+  "info": {
+    "displayName": "PopUpCard",
+    "icon": "calendar"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "positon": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

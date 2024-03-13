@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_components_values",
+  "info": {
+    "displayName": "Value",
+    "icon": "filter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imageBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.image-block"
+    },
+    "firstCounter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.counter"
+    },
+    "secondCounter": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.counter"
+    }
+  }
+}

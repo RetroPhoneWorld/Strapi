@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "story_pages",
+  "info": {
+    "singularName": "story-page",
+    "pluralName": "story-pages",
+    "displayName": "StoryPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageContent": {
+      "type": "dynamiczone",
+      "components": [
+        "components.footer",
+        "story.countdown",
+        "story.about",
+        "story.header",
+        "story.values",
+        "shared.seo",
+        "components.cta",
+        "components.black-section"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

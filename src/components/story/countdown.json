@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_story_countdowns",
+  "info": {
+    "displayName": "Countdown",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "title1": {
+      "type": "string"
+    },
+    "title2": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "endDate": {
+      "type": "date"
+    }
+  }
+}

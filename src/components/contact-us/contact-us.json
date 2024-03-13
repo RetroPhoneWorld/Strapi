@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_contact_us_contactuses",
+  "info": {
+    "displayName": "ContactUs",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "clientInfo": {
+      "displayName": "ClientInfo",
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-us.client-info"
+    }
+  }
+}

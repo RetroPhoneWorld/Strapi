@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_word_record_visions",
+  "info": {
+    "displayName": "Vision",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "lead": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

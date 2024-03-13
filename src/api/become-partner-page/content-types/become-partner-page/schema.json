@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "become_partner_pages",
+  "info": {
+    "singularName": "become-partner-page",
+    "pluralName": "become-partner-pages",
+    "displayName": "BecomePartnerPage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "pageContent": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "become-partner.benefits",
+        "become-partner.contact",
+        "become-partner.hero",
+        "components.cta"
+      ]
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "shared.seo"
+    }
+  }
+}

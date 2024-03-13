@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_equilibrium_values",
+  "info": {
+    "displayName": "Value"
+  },
+  "options": {},
+  "attributes": {
+    "subtitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "imageBlock": {
+      "type": "component",
+      "repeatable": false,
+      "component": "components.image-block"
+    }
+  }
+}

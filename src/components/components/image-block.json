@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_components_image_blocks",
+  "info": {
+    "displayName": "ImageBlock",
+    "icon": "landscape"
+  },
+  "options": {},
+  "attributes": {
+    "FirstImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "SecondImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ThirdImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

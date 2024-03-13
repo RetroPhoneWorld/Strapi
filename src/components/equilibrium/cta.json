@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_equilibrium_ctas",
+  "info": {
+    "displayName": "Cta",
+    "icon": "phone"
+  },
+  "options": {},
+  "attributes": {
+    "titleNormal": {
+      "type": "string"
+    },
+    "titleHighlited": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
