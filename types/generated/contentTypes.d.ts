@@ -1202,7 +1202,8 @@ export interface ApiFeaturedPartnerFeaturedPartner
         i18n: {
           localized: true;
         };
-      }>;
+      }> &
+      Attribute.DefaultTo<0>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1447,7 +1448,8 @@ export interface ApiPackagePackage extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
-      }>;
+      }> &
+      Attribute.DefaultTo<0>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1533,7 +1535,7 @@ export interface ApiPartnerPartner extends Schema.CollectionType {
   attributes: {
     link: Attribute.String;
     image: Attribute.Media;
-    priority: Attribute.Integer;
+    priority: Attribute.Integer & Attribute.DefaultTo<0>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1603,7 +1605,8 @@ export interface ApiPartnersCardPartnersCard extends Schema.CollectionType {
         i18n: {
           localized: true;
         };
-      }>;
+      }> &
+      Attribute.DefaultTo<0>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
