@@ -1197,6 +1197,12 @@ export interface ApiFeaturedPartnerFeaturedPartner
           localized: true;
         };
       }>;
+    priority: Attribute.Integer &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1436,6 +1442,12 @@ export interface ApiPackagePackage extends Schema.CollectionType {
       'oneToOne',
       'api::color.color'
     >;
+    priority: Attribute.Integer &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1513,6 +1525,7 @@ export interface ApiPartnerPartner extends Schema.CollectionType {
     singularName: 'partner';
     pluralName: 'partners';
     displayName: 'Partner';
+    description: '';
   };
   options: {
     draftAndPublish: true;
@@ -1520,6 +1533,7 @@ export interface ApiPartnerPartner extends Schema.CollectionType {
   attributes: {
     link: Attribute.String;
     image: Attribute.Media;
+    priority: Attribute.Integer;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
@@ -1584,6 +1598,12 @@ export interface ApiPartnersCardPartnersCard extends Schema.CollectionType {
       'oneToOne',
       'api::color.color'
     >;
+    priority: Attribute.Integer &
+      Attribute.SetPluginOptions<{
+        i18n: {
+          localized: true;
+        };
+      }>;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
