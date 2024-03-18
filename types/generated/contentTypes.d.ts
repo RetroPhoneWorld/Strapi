@@ -768,6 +768,55 @@ export interface PluginI18NLocale extends Schema.CollectionType {
   };
 }
 
+export interface PluginEmailDesignerEmailTemplate
+  extends Schema.CollectionType {
+  collectionName: 'email_templates';
+  info: {
+    singularName: 'email-template';
+    pluralName: 'email-templates';
+    displayName: 'Email-template';
+    name: 'email-template';
+  };
+  options: {
+    draftAndPublish: false;
+    timestamps: true;
+    increments: true;
+    comment: '';
+  };
+  pluginOptions: {
+    'content-manager': {
+      visible: false;
+    };
+    'content-type-builder': {
+      visible: false;
+    };
+  };
+  attributes: {
+    templateReferenceId: Attribute.Integer & Attribute.Unique;
+    design: Attribute.JSON;
+    name: Attribute.String;
+    subject: Attribute.String;
+    bodyHtml: Attribute.Text;
+    bodyText: Attribute.Text;
+    enabled: Attribute.Boolean & Attribute.DefaultTo<true>;
+    tags: Attribute.JSON;
+    createdAt: Attribute.DateTime;
+    updatedAt: Attribute.DateTime;
+    createdBy: Attribute.Relation<
+      'plugin::email-designer.email-template',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+    updatedBy: Attribute.Relation<
+      'plugin::email-designer.email-template',
+      'oneToOne',
+      'admin::user'
+    > &
+      Attribute.Private;
+  };
+}
+
 export interface ApiBecomePartnerPageBecomePartnerPage
   extends Schema.SingleType {
   collectionName: 'become_partner_pages';
@@ -1835,6 +1884,7 @@ declare module '@strapi/types' {
       'plugin::users-permissions.role': PluginUsersPermissionsRole;
       'plugin::users-permissions.user': PluginUsersPermissionsUser;
       'plugin::i18n.locale': PluginI18NLocale;
+      'plugin::email-designer.email-template': PluginEmailDesignerEmailTemplate;
       'api::become-partner-page.become-partner-page': ApiBecomePartnerPageBecomePartnerPage;
       'api::color.color': ApiColorColor;
       'api::contact-form.contact-form': ApiContactFormContactForm;
