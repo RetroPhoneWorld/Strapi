@@ -66,8 +66,9 @@ export interface ComponentsAbout extends Schema.Component {
 export interface ComponentsBlackSection extends Schema.Component {
   collectionName: 'components_components_black_sections';
   info: {
-    displayName: 'BlackSection';
+    displayName: 'BlackSection-Guinnes';
     icon: 'bulletList';
+    description: '';
   };
   attributes: {
     Title1: Attribute.String;
@@ -215,8 +216,9 @@ export interface ComponentsListing extends Schema.Component {
 export interface ComponentsPartner extends Schema.Component {
   collectionName: 'components_components_partners';
   info: {
-    displayName: 'Partner';
+    displayName: 'Partner (slider)';
     icon: 'apps';
+    description: '';
   };
   attributes: {
     Image: Attribute.Media;

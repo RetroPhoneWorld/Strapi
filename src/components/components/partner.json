@@ -1,17 +1,19 @@
 {
   "collectionName": "components_components_partners",
   "info": {
-    "displayName": "Partner",
-    "icon": "apps"
+    "displayName": "Partner (slider)",
+    "icon": "apps",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

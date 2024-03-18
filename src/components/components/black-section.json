@@ -1,8 +1,9 @@
 {
   "collectionName": "components_components_black_sections",
   "info": {
-    "displayName": "BlackSection",
-    "icon": "bulletList"
+    "displayName": "BlackSection-Guinnes",
+    "icon": "bulletList",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -16,11 +17,12 @@
       "type": "richtext"
     },
     "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

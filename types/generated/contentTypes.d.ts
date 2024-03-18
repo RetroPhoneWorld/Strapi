@@ -865,7 +865,8 @@ export interface ApiContactFormContactForm extends Schema.CollectionType {
   info: {
     singularName: 'contact-form';
     pluralName: 'contact-forms';
-    displayName: 'ContactForm';
+    displayName: 'Contact-Form';
+    description: '';
   };
   options: {
     draftAndPublish: false;
@@ -1156,7 +1157,7 @@ export interface ApiFeaturedPartnerFeaturedPartner
   info: {
     singularName: 'featured-partner';
     pluralName: 'featured-partners';
-    displayName: 'FeaturedPartner';
+    displayName: 'Partner-Featured (phone style)';
     description: '';
   };
   options: {
@@ -1479,7 +1480,7 @@ export interface ApiPackageFeaturePackageFeature extends Schema.CollectionType {
   info: {
     singularName: 'package-feature';
     pluralName: 'package-features';
-    displayName: 'PackageFeature';
+    displayName: 'Package-Feature';
     description: '';
   };
   options: {
@@ -1559,7 +1560,7 @@ export interface ApiPartnersCardPartnersCard extends Schema.CollectionType {
   info: {
     singularName: 'partners-card';
     pluralName: 'partners-cards';
-    displayName: 'PartnersCard';
+    displayName: 'Partner-Featured (card style)';
     description: '';
   };
   options: {
